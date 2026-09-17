@@ -2,7 +2,8 @@ This repository contains MATLAB code to analyze timelapse imaging data generated
 _sox10:myrEGFP-P2A-Lifeact-TagRFP_ genetic construct in Danio rerio. 
 
 Input file type: .TRACES files generated from timelapse imaging tracing Lifeact signal in each 
-time frame using the Simple Neurite Tracer package in FIJI (https://imagej.net/plugins/snt/)1.
+time frame using the Simple Neurite Tracer package in FIJI (https://imagej.net/plugins/snt/).
+See Arshadi et al, 2021 for more information.
 
 Output: "ans" data structure containing distance from lifeact signal to lower edge of sheath 
 across time in submitted data. To estimate variability in Lifeact signal, this data can then be
